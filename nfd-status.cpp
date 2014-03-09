@@ -34,7 +34,7 @@ namespace ndn {
         "Face Status Information via NFD Face Status Protocol (FaceID, URI, Counters).\n"
         "FIB Information via NFD FIB Enumeration Protocol (Prefix, Nexthop).\n"
         "If no options are provided, all information is retrieved.\n"
-        "  [-v] - retrieve version information"
+        "  [-v] - retrieve version information\n"
         "  [-f] - retrieve face status information\n"
         "  [-b] - retrieve FIB information\n"
         "  [-h] - print help and exit\n\n";
