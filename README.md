@@ -20,16 +20,16 @@ MORE CONTENT TO BE ADDED
 
 ## 2. Tool Run Instructions & Command Line Options: ##
 
-Usage: build/nfd-status [options]
-Shows NFD Status Information
-Displays Version Information (NFD Version, Start Timestamp, Current Timestamp).
-Face Status Information via NFD Face Status Protocol (FaceID, URI, Counters).
-FIB Information via NFD FIB Enumeration Protocol (Prefix, Nexthop).
-If no options are provided, all information is retrieved.
-  [-v] - retrieve version information
-  [-f] - retrieve face status information
-  [-b] - retrieve FIB information
-  [-h] - print help and exit
+    Usage: build/nfd-status [options]
+    Shows NFD Status Information
+    Displays Version Information (NFD Version, Start Timestamp, Current Timestamp).
+    Face Status Information via NFD Face Status Protocol (FaceID, URI, Counters).
+    FIB Information via NFD FIB Enumeration Protocol (Prefix, Nexthop).
+    If no options are provided, all information is retrieved.
+      [-v] - retrieve version information
+      [-f] - retrieve face status information
+      [-b] - retrieve FIB information
+      [-h] - print help and exit
 
 ## 3. Sample Run Instructions ##
 
