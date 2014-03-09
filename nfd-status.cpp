@@ -65,16 +65,16 @@ namespace ndn {
         ndn::Data& data,
         std::string informationType)
     {
-      if (informationType == "Version")
+      if (informationType == "VersionDataRequest")
         {
           //TBD
         }
-      else if (informationType == "FaceStatus")
+      else if (informationType == "FaceDataRequest")
         {
           std::cout << "\nFace Status Protocol Data:\n";
           std::cout << data << std::endl;
         }
-      else if (informationType == "FIB")
+      else if (informationType == "FibDataRequest")
         {
           std::cout << "\nFIB Enumeration Protocol Data:\n";
           std::cout << data << std::endl;
